@@ -4,7 +4,7 @@ class QuestionsController < ApplicationController
 
   def answer
     @ask = params[:question]
-    if @ask == "I am going to work" || "i am going to work"
+    if @ask.downcase == "i am going to work"
       @answer = "Great!"
     elsif @ask.include? "?"
       @answer = "Silly question, get dressed and go to work"
