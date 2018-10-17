@@ -12,8 +12,6 @@
   background-color: blue;
   color: white;
   padding: 10px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
   border: 1px solid blue;
 }
 
@@ -25,10 +23,9 @@
 .question_input {
   padding: 10px;
   margin-left: 15px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
   border: 1px solid lightgrey;
   margin-right: -6px;
+  border-left: 20px solid lightgrey;
 }
 
 .conversation_ask {
@@ -49,3 +46,14 @@
 .get_answer {
   margin: 10px;
 }
+
+.container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_talk {
+  justify-content: left;
+}
+
