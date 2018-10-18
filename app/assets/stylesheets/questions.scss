@@ -7,9 +7,17 @@
   color: blue;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid blue;
+}
+
+.button-pad-small{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.button-pad-large {
   padding-right: 119px;
   padding-left: 119px;
-  border: 1px solid blue;
 }
 
 // this needs to be at the top of this list or it will override other border settings
