@@ -9,8 +9,12 @@
       <p>--Your coach</p>
     </div>
 
-    <div class="margin flex-standard button">
-      <%= link_to 'Ask a new question', ask_path %>
+    <div>
+      <form action="/ask" method="get">
+        <p>
+        <input type="submit" value="Ask a new question!" class="button button-pad-small margin">
+        </p>
+      </form>
     </div>
   </div>
 </div>
