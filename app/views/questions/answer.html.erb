@@ -1,15 +1,15 @@
 <div class="flex-container">
-  <div class="row padding">
-    <div class="conversation_ask">
+  <div class="row top-padding">
+    <div class="conversation margin border border-left flex-standard">
       <p><%= @ask %></p>
       <p>--You</p>
     </div>
-    <div class="conversation_response">
+    <div class="conversation margin response border border-left flex-standard">
       <p><%= @answer %></p>
       <p>--Your coach</p>
     </div>
 
-    <div class="get_answer">
+    <div class="margin flex-standard">
       <%= link_to 'Ask a new question', ask_path %>
     </div>
   </div>
