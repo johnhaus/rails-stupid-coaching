@@ -2,12 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.title {
-  font-size: 32pt;
-  font-family: sans-serif;
-  margin: 15px;
-}
-
 .button {
   background-color: blue;
   color: white;
@@ -15,20 +9,15 @@
   border: 1px solid blue;
 }
 
-.ask_coach {
-  font-family: sans-serif;
-  margin: 15px;
-}
-
 .question_input {
   padding: 10px;
-  margin-left: 15px;
   border: 1px solid lightgrey;
   margin-right: -6px;
   border-left: 20px solid lightgrey;
 }
 
 .conversation_ask {
+  flex: 0 1 350px;
   border: 1px solid lightgrey;
   margin: 10px;
   padding: 5px;
@@ -36,6 +25,7 @@
 }
 
 .conversation_response {
+  flex: 0 1 350px;
   border: 1px solid lightgrey;
   margin: 10px;
   padding: 5px;
@@ -47,13 +37,23 @@
   margin: 10px;
 }
 
-.container {
-  padding-top: 20px;
+.flex-container {
   display: flex;
   justify-content: center;
 }
 
-.container_talk {
+.flex-item {
+  flex: 0 1 350px;
+  border: 1px solid lightgrey;
+  padding: 25px;
+}
+
+.flex-talk {
+  flex: 0 1 350px;
+  padding-top: 30px;
   justify-content: left;
 }
 
+.padding {
+  padding-top: 30px;
+}
