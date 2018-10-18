@@ -3,9 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .button {
-  background-color: blue;
-  color: white;
-  padding: 10px;
+  background-color: white;
+  color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 119px;
+  padding-left: 119px;
   border: 1px solid blue;
 }
 
@@ -54,4 +57,3 @@
 .flex-standard {
   flex: 0 1 350px;
 }
-
