@@ -7,3 +7,15 @@
   padding-left: 20px;
 }
 
+.navbar-right{
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+.navbar-left {
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
